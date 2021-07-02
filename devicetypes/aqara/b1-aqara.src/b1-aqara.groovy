@@ -15,7 +15,7 @@ import physicalgraph.zigbee.zcl.DataType
 import physicalgraph.zigbee.clusters.iaszone.ZoneStatus
 
 metadata {
-    definition(name: "Aqara Curtain B1", namespace: "Yongk", author: "Yongk", ocfDeviceType: "oic.d.blind", vid: "generic-shade") {
+    definition(name: "Aqara Curtain B1", namespace: "aqara", author: "Yongk", ocfDeviceType: "oic.d.blind", vid: "generic-shade") {
 	capability "Window Shade" 
 	capability "Switch Level"
 	capability "Switch"
